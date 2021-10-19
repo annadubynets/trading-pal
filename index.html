@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZoomCharts PRO</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand align-self-center" href="./index.html">
+                <img src="images/logo.svg" alt="logo">
+            </a>
+
+            <button class="navbar-toggler border-0 collapsed px-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="icon-menu text-dark toggler-collapsed font-size-30"></span>
+                <span class="icon-close text-dark toggler-expanded font-size-30"></span>
+            </button>
+            <div class="navbar-collapse collapse" id="navbarCollapse">
+                <ul class="navbar-nav ms-lg-auto ms-0 me-4">
+                    <li class="nav-item align-self-center">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item align-self-center">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item align-self-center">
+                        <a class="nav-link" href="#">Our team</a>
+                    </li>
+                    <li class="nav-item align-self-center">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item align-self-center">
+                        <a class="nav-link" href="#">Roadmap</a>
+                    </li>
+                </ul>
+
+
+                <ul class="navbar-nav ms-lg-auto ms-0">
+                    <li class="nav-item align-self-center pe-4">
+                        <div class="switch">
+                            <div class="current">
+                                <span>en</span>
+                                <div class="arrow ps-3">
+                                </div>
+                            </div>
+                            <div class="options">
+                                <ul class="options-list">
+                                    <li data-lang="en">EN</li>
+                                    <li data-lang="de">DE</li>
+                                    <li data-lang="fr">FR</li>
+                                    <li data-lang="it">IT</li>
+                                </ul>
+                                <div id="trans-circle"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120"> <g id="circle" fill="none" fill-rule="evenodd"> <circle id="bg" cx="60" cy="60" r="60" fill="#282A2E"/> </g> </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="nav-item align-self-center pe-4">
+                        <div class="icon-block">
+                            <a href="#"><span class="icon-moon"></span></a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item align-self-center">
+                        <a href="#" class="ms-auto btn btn-primary py-3 px-4">Launch App</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero pt-192px position-relative">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 text-lg-start text-center pb-lg-0 pb-5">
+                    <h1>Decentralized market making</h1>
+                    <p class="subtitle pb-lg-5 pb-4">Earn passive income by running your own high-frequency market making bot</p>
+                    <a href="#" class="btn btn-primary">View pricing plans <span class="icon-arrow-right ps-3"></span></a>
+                </div>
+                <div class="col-lg-6">
+                    <img src="images/robot.png" alt="main image" class="w-100">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-72px">
+        <div class="container">
+            <div class="row">
+                <div class="col mb-lg-0 mb-3">
+                    <div class="card-widget d-lg-block d-flex p-lg-4 p-3">
+                        <div class="icon-block mb-4">
+                            <span class="icon-tag"></span>
+                        </div>
+                        <div class="ps-lg-0 ps-3">
+                            <h2 class="pb-2"><span class="font-family-second">0.00041328</span></h2>
+                            <p>Value</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col mb-lg-0 mb-3">
+                    <div class="card-widget d-lg-block d-flex p-lg-4 p-3">
+                        <div class="icon-block mb-4">
+                            <span class="icon-people"></span>
+                        </div>
+                        <div class="ps-lg-0 ps-3">
+                            <h2 class="pb-2"><span class="font-family-second">2,609.039</span></h2>
+                            <p>Hodlers</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col mb-lg-0 mb-3">
+                    <div class="card-widget d-lg-block d-flex p-lg-4 p-3">
+                        <div class="icon-block mb-4">
+                            <span class="icon-bolt"></span>
+                        </div>
+                        <div class="ps-lg-0 ps-3">
+                            <h2 class="pb-2"><span class="font-family-second">424.41378</span><span class="font-size-18px">TR</span></h2>
+                            <p>Burned</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col mb-lg-0 mb-3">
+                    <div class="card-widget d-lg-block d-flex p-lg-4 p-3">
+                        <div class="icon-block mb-4">
+                            <span class="icon-pending"></span>
+                        </div>
+                        <div class="ps-lg-0 ps-3">
+                            <h2 class="pb-2"><span class="font-family-second">243.88182</span><span class="font-size-18px">TR</span></h2>
+                            <p>Circulating</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col mb-lg-0 mb-3">
+                    <div class="card-widget d-lg-block d-flex p-lg-4 p-3">
+                        <div class="icon-block mb-4">
+                            <span class="icon-bond"></span>
+                        </div>
+                        <div class="ps-lg-0 ps-3">
+                            <h2 class="pb-2"><span class="font-family-second">$0,123512</span><span class="font-size-18px">B</span></h2>
+                            <p>Market Cap</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-secondary py-72px">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 order-lg-0 order-1">
+                    <img src="images/photo-1.png" alt="Image 1" class="rounded-pills w-100">
+                </div>
+                <div class="col-lg-5 offset-lg-2 order-lg-1 order-0 pb-lg-0 pb-5">
+                    <span class="badge bg-light text-primary mb-3">find out</span>
+                    <h2 class="mb-32px">What is market making bot?</h2>
+                    <p class="pb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+                    <a href="#" class="btn btn-primary py-3 px-4">Launch App</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-72px">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 pb-lg-0 pb-5">
+                    <span class="badge bg-light text-primary mb-3">find out</span>
+                    <h2 class="mb-32px">What do market makers do?</h2>
+                    <p class="pb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+                    <a href="#" class="btn btn-primary py-3 px-4">Launch App</a>
+                </div>
+                <div class="col-lg-5 offset-lg-2">
+                    <img src="images/photo-2.png" alt="Image 2" class="rounded-pills w-100">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-secondary py-72px">
+        <div class="container">
+            <div class="row justify-content-center mb-32px">
+                <div class="col-lg-5 text-lg-center text-start">
+                    <span class="badge bg-light text-primary mb-3">find out</span>
+                    <h2>Some of the best features</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 order-lg-0 order-0">
+                    <div class="card-widget p-40px mb-4">
+                        <h3 class="mb-lg-4 mb-3">Multiswap</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod</p>
+                    </div>
+                    <div class="card-widget p-40px mb-4">
+                        <h3 class="mb-lg-4 mb-3">Multiswap</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod</p>
+                    </div>
+                    <div class="card-widget p-40px mb-lg-0 mb-4">
+                        <h3 class="mb-lg-4 mb-3">Multiswap</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 order-lg-1 order-2">
+                    <div class="card-widget text-lg-center text-start p-40px">
+                        <img src="images/robot.png" alt="Main image" class="w-100 mb-5">
+                        <h2 class="mb-32px">TradingPal</h2>
+                        <p class="pb-3">Earn passive income by running your own high-frequency market making bot</p>
+                        <a href="#" class="text-primary">view all features<span class="icon-arrow-right text-primary ps-3"></span></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 order-lg-2 order-1">
+                    <div class="card-widget p-40px mb-4">
+                        <h3 class="mb-lg-4 mb-3">Multiswap</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod</p>
+                    </div>
+                    <div class="card-widget p-40px mb-4">
+                        <h3 class="mb-lg-4 mb-3">Multiswap</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod</p>
+                    </div>
+                    <div class="card-widget p-40px mb-lg-0 mb-4">
+                        <h3 class="mb-lg-4 mb-3">Multiswap</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-72px">
+        <div class="container">
+            <div class="row justify-content-center mb-32px">
+                <div class="col-lg-5 text-lg-center text-start">
+                    <span class="badge bg-light text-primary mb-3">team</span>
+                    <h2>Our team</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 mb-4">
+                    <div class="card-widget d-lg-block d-flex align-items-center p-4">
+                        <img src="images/team-user-1.png" alt="User 1" class="rounded mb-lg-4 mb-0">
+                        <div class="ps-lg-0 ps-3">
+                            <h4 class="mb-lg-4 mb-1">Tom Hiddleston</h4>
+                            <p>Chief executive officer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <div class="card-widget d-lg-block d-flex align-items-center p-4">
+                        <img src="images/team-user-2.png" alt="User 2" class="rounded mb-lg-4 mb-0">
+                        <div class="ps-lg-0 ps-3">
+                            <h4 class="mb-lg-4 mb-1">Zoe Saldana</h4>
+                            <p>SEO specialist</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <div class="card-widget d-lg-block d-flex align-items-center p-4">
+                        <img src="images/team-user-1.png" alt="User 1" class="rounded mb-lg-4 mb-0">
+                        <div class="ps-lg-0 ps-3">
+                            <h4 class="mb-lg-4 mb-1">Dave Bautista</h4>
+                            <p>CSS developer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <div class="card-widget d-lg-block d-flex align-items-center p-4">
+                        <img src="images/team-user-1.png" alt="User 1" class="rounded mb-lg-4 mb-0">
+                        <div class="ps-lg-0 ps-3">
+                            <h4 class="mb-lg-4 mb-1">Elizabeth Olsen</h4>
+                            <p>Pascal developer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <div class="card-widget d-lg-block d-flex align-items-center p-4">
+                        <img src="images/team-user-2.png" alt="User 2" class="rounded mb-lg-4 mb-0">
+                        <div class="ps-lg-0 ps-3">
+                            <h4 class="mb-lg-4 mb-1">Dave Bautista</h4>
+                            <p>Chief executive officer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <div class="card-widget d-lg-block d-flex align-items-center p-4">
+                        <img src="images/team-user-1.png" alt="User 1" class="rounded mb-lg-4 mb-0">
+                        <div class="ps-lg-0 ps-3">
+                            <h4 class="mb-lg-4 mb-1">Elizabeth Olsen</h4>
+                            <p>Chief executive officer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <div class="card-widget d-lg-block d-flex align-items-center p-4">
+                        <img src="images/team-user-1.png" alt="User 1" class="rounded mb-lg-4 mb-0">
+                        <div class="ps-lg-0 ps-3">
+                            <h4 class="mb-lg-4 mb-1">Tom Hiddleston</h4>
+                            <p>HTML developer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <div class="card-widget d-lg-block d-flex align-items-center p-4">
+                        <img src="images/team-user-2.png" alt="User 2" class="rounded mb-lg-4 mb-0">
+                        <div class="ps-lg-0 ps-3">
+                            <h4 class="mb-lg-4 mb-1">Zoe Saldana</h4>
+                            <p>SEO specialist</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <div class="card-widget d-lg-block d-flex align-items-center p-4">
+                        <img src="images/team-user-1.png" alt="User 1" class="rounded mb-lg-4 mb-0">
+                        <div class="ps-lg-0 ps-3">
+                            <h4 class="mb-lg-4 mb-1">Tom Hiddleston</h4>
+                            <p>Chief executive officer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <div class="card-widget d-lg-block d-flex align-items-center p-4">
+                        <img src="images/team-user-2.png" alt="User 2" class="rounded mb-lg-4 mb-0">
+                        <div class="ps-lg-0 ps-3">
+                            <h4 class="mb-lg-4 mb-1">Zoe Saldana</h4>
+                            <p>SEO specialist</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <div class="card-widget d-lg-block d-flex align-items-center p-4">
+                        <img src="images/team-user-1.png" alt="User 1" class="rounded mb-lg-4 mb-0">
+                        <div class="ps-lg-0 ps-3">
+                            <h4 class="mb-lg-4 mb-1">Dave Bautista</h4>
+                            <p>CSS developer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <div class="card-widget d-lg-block d-flex align-items-center p-4">
+                        <img src="images/team-user-1.png" alt="User 1" class="rounded mb-lg-4 mb-0">
+                        <div class="ps-lg-0 ps-3">
+                            <h4 class="mb-lg-4 mb-1">Elizabeth Olsen</h4>
+                            <p>Pascal developer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-secondary py-72px">
+        <div class="container">
+            <div class="row justify-content-center mb-32px">
+                <div class="col-lg-5 text-lg-center text-start">
+                    <span class="badge bg-light text-primary mb-3">partners</span>
+                    <h2>Exchange Connectors</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-6 mb-4">
+                    <div class="card-widget h-100 d-flex justify-content-center bg-dark text-center p-lg-5 p-4">
+                        <img src="images/solana.svg" alt="Solana" class="w-100">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6 mb-4">
+                    <div class="card-widget h-100 d-flex justify-content-center bg-dark text-center p-lg-5 p-4">
+                        <img src="images/discord.svg" alt="Discord" class="w-100">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6 mb-4">
+                    <div class="card-widget h-100 d-flex justify-content-center bg-dark text-center p-lg-5 p-4">
+                        <img src="images/dao-cloud.svg" alt="DaoCloud" class="w-100">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6 mb-4">
+                    <div class="card-widget h-100 d-flex justify-content-center bg-dark text-center p-lg-5 p-4">
+                        <img src="images/lrlgon.svg" alt="lrlgon" class="w-100">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <div class="card-widget h-100 d-flex justify-content-center bg-dark text-center p-lg-5 p-4">
+                        <img src="images/dao-cloud.svg" alt="DaoCloud" class="w-100">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <div class="card-widget h-100 d-flex justify-content-center bg-dark text-center p-lg-5 p-4">
+                        <img src="images/lrlgon.svg" alt="lrlgon" class="w-100">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <div class="card-widget h-100 d-flex justify-content-center bg-dark text-center p-lg-5 p-4">
+                        <img src="images/discord.svg" alt="Discord" class="w-100">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <div class="card-widget h-100 d-flex justify-content-center bg-dark text-center p-lg-5 p-4">
+                        <img src="images/solana.svg" alt="Solana" class="w-100">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="team py-72px">
+        <div class="container">
+            <div class="row mb-32px">
+                <div class="col-lg-12 position-relative">
+                    <span class="badge bg-light text-primary mb-3">roadmap</span>
+                    <h2>Check out our history</h2>
+                    <div class="tech-carousel-nav position-absolute d-lg-block d-none"></div>
+                </div>
+            </div>
+            <div class="row align-items-end">
+                <div class="col-lg-12">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <p class="text-white main-description pb-2">Launching TradingPal</p>
+                            <h2 class="pb-4">sep <span class="fw-normal">10</span></h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit ipsum dolor</p>
+                        </div>
+                        <div class="item">
+                            <p class="text-white main-description pb-2">Launching Bot software</p>
+                            <h2 class="pb-4">oct <span class="fw-normal">12</span></h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit ipsum dolor</p>
+                        </div>
+                        <div class="item">
+                            <!-- <img src="images/photo-3.png" alt="Image 3" class="rounded-pills w-100 mb-4"> -->
+                            <p class="text-white main-description pb-2">Explorer launching</p>
+                            <h2 class="pb-4">nov <span class="fw-normal">19</span></h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit ipsum dolor</p>
+                        </div>
+                        <div class="item">
+                            <p class="text-white main-description pb-2">Explorer launching</p>
+                            <h2 class="pb-4">dec <span class="fw-normal">28</span></h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit ipsum dolor</p>
+                        </div>
+                        <div class="item">
+                            <p class="text-white main-description pb-2">Launching TradingPal</p>
+                            <h2 class="pb-4">sep <span class="fw-normal">10</span></h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit ipsum dolor</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-secondary py-72px">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 pb-lg-0 pb-5">
+                    <p class="main-description pb-3">tradingpal app
+                    </p>
+                    <h2 class="mb-32px">Use proven trading expertise</h2>
+                    <p class="pb-4">Earn passive income by running your own high-frequency market making bot</p>
+                    <a href="#" class="btn btn-primary py-3 px-4">Launch App</a>
+                </div>
+                <div class="col-lg-5 offset-lg-2">
+                    <img src="images/photo-4.png" alt="Image 4" class="rounded-pills w-100">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer bg-secondary py-4">
+        <div class="container-fluid">
+            <div class="row justify-content-lg-between justify-content-center">
+                <div class="col-lg-8 d-lg-flex d-block text-center align-items-center order-lg-0 order-1">
+                    <p class="pe-lg-5 pe-0 pb-lg-0 pb-4">© Tradingpal.com 2021</p>
+                    <a href="#" class="link-page pe-lg-5 pe-0">Privacy Policy</a>
+                    <a href="#" class="link-page pe-lg-5 pe-0">Terms of use</a>
+                    <a href="mailto:info@tradingpal.com" class="link-page text-white pe-lg-5 pe-0"><span class="icon-mail pe-2"></span>info@tradingpal.com</a>
+                    <p>Made by <span><a href="#" class="link-page text-white">roobinium.io</a></span></p>
+                </div>
+                <div class="col-lg-4 d-lg-flex d-block text-center justify-content-end align-items-center order-lg-1 order-0">
+                    <div class="d-flex justify-content-center order-lg-1 order-0 py-lg-0 py-4">
+                        <a href="#" class="social-link text-decoration-none"><span class="icon-twitter"></span></a>
+                        <a href="#" class="social-link text-decoration-none"><span class="icon-reddit"></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap-select.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>

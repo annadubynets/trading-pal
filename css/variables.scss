@@ -1,0 +1,91 @@
+$black: #212429;
+$darkgrey: #282A2E;
+$pink: #F54562;
+$white: #FFFFFF;
+$grid-breakpoints: ( xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px, xxl: 1400px);
+h1 {
+    font-weight: bold;
+    font-size: 72px;
+    letter-spacing: -0.04em;
+    color: $white;
+    margin-bottom: 72px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: -1px;
+    color: $white;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: -1px;
+    color: $white;
+}
+
+h4 {
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: -1px;
+    color: $white;
+}
+
+p {
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(224, 224, 255, 0.6);
+}
+
+.font-family-second {
+    font-family: 'Gilroy', sans-serif;
+}
+
+.font-size-13px {
+    font-size: 13px;
+}
+
+.font-size-18px {
+    font-size: 18px;
+}
+
+.text-primary {
+    color: $pink!important;
+}
+
+.rounded {
+    border-radius: 12px!important;
+}
+
+.rounded-pills {
+    border-radius: 24px!important;
+}
+
+.bg-light {
+    background: rgba(245, 69, 98, 0.03)!important;
+}
+
+.bg-secondary {
+    background: $darkgrey!important;
+}
+
+.bg-dark {
+    background: $black!important;
+}
+
+.py-72px {
+    padding: 72px 0;
+}
+
+.p-40px {
+    padding: 40px;
+}
+
+.pt-192px {
+    padding-top: 192px;
+}
+
+.mb-32px {
+    margin-bottom: 32px;
+}
