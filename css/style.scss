@@ -7,6 +7,10 @@
         background-color: $black;
     }
     
+    .container {
+        max-width: 1320px;
+    }
+    
     p {
         padding: 0;
         margin: 0;
@@ -158,12 +162,23 @@
         padding: 24px 32px;
         color: $white;
         background: linear-gradient(135deg, #FF5E00 0%, #F54562 54.11%, #C32DE1 100%);
+        box-shadow: 0px 0px 1px rgba(245, 69, 98, 0.24), 0px 2px 4px -1px rgba(27, 10, 82, 0.12), 0px 16px 24px rgba(245, 69, 98, 0.24), 0px 8px 8px -4px rgba(245, 69, 98, 0.12);
         border-radius: 12px;
         border: none;
         &:hover {
-            background: linear-gradient(90deg, rgba(245, 69, 98, .9), rgba(195, 45, 225, .9));
-            box-shadow: 0px 0px 1px rgba(245, 69, 98, 0.24), 0px 2px 4px -1px rgba(27, 10, 82, 0.12), 0px 16px 24px rgba(245, 69, 98, 0.24), 0px 8px 8px -4px rgba(245, 69, 98, 0.12);
+            box-shadow: 0px 1px 1px rgba(245, 69, 98, 0.24), 0px 4px 4px -1px rgba(27, 10, 82, 0.12), 0px 24px 32px rgba(245, 69, 98, 0.24), 0px 12px 12px -4px rgba(245, 69, 98, 0.12);
         }
+        &:focus {
+            box-shadow: 0px 0px 1px rgba(245, 69, 98, 0.24), 0px 1px 4px -1px rgba(27, 10, 82, 0.12), 0px 8px 16px rgba(245, 69, 98, 0.24), 0px 8px 8px -4px rgba(245, 69, 98, 0.12);
+        }
+    }
+    
+    .btn-check:active+.btn-primary:focus,
+    .btn-check:checked+.btn-primary:focus,
+    .btn-primary.active:focus,
+    .btn-primary:active:focus,
+    .show>.btn-primary.dropdown-toggle:focus {
+        box-shadow: none;
     }
     
     input {
@@ -178,7 +193,16 @@
         backdrop-filter: blur(108.731px);
         border-radius: 24px;
         &:hover {
-            box-shadow: 6px 20px 78px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 0px 1px rgba(245, 69, 98, 0.24), 0px 2px 4px -1px rgba(27, 10, 82, 0.12), 0px 16px 24px rgba(245, 69, 98, 0.24), 0px 8px 8px -4px rgba(245, 69, 98, 0.12);
+        }
+    }
+    
+    .features {
+        .card-widget {
+            &:hover {
+                background: linear-gradient(135deg, #FF5E00 0%, #F54562 54.11%, #C32DE1 100%);
+                box-shadow: 0px 0px 1px rgba(245, 69, 98, 0.24), 0px 2px 4px -1px rgba(27, 10, 82, 0.12), 0px 16px 24px rgba(245, 69, 98, 0.24), 0px 8px 8px -4px rgba(245, 69, 98, 0.12);
+            }
         }
     }
     

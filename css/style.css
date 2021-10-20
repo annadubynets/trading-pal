@@ -3,11 +3,16 @@
 @import "./owl.carousel.min.css";
 @import "fonts.css";
 h1 {
-  font-weight: bold;
+  font-weight: 800;
   font-size: 72px;
-  letter-spacing: -0.04em;
+  letter-spacing: -0.02em;
   color: #FFFFFF;
   margin-bottom: 72px;
+}
+h1 span {
+  background: -webkit-linear-gradient(135deg, #FF5E00 0%, #F54562 54.11%, #C32DE1 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 h2 {
@@ -89,9 +94,21 @@ p {
   margin-bottom: 32px;
 }
 
+.mb-72px {
+  margin-bottom: 72px;
+}
+
+.w-70 {
+  width: 70%;
+}
+
 body {
   font-family: "Montserrat";
   background-color: #212429;
+}
+
+.container {
+  max-width: 1320px;
 }
 
 p {
@@ -240,12 +257,23 @@ a {
   padding: 24px 32px;
   color: #FFFFFF;
   background: linear-gradient(135deg, #FF5E00 0%, #F54562 54.11%, #C32DE1 100%);
+  box-shadow: 0px 0px 1px rgba(245, 69, 98, 0.24), 0px 2px 4px -1px rgba(27, 10, 82, 0.12), 0px 16px 24px rgba(245, 69, 98, 0.24), 0px 8px 8px -4px rgba(245, 69, 98, 0.12);
   border-radius: 12px;
   border: none;
 }
 .btn-primary:hover {
-  background: linear-gradient(90deg, rgba(245, 69, 98, 0.9), rgba(195, 45, 225, 0.9));
-  box-shadow: 0px 0px 1px rgba(245, 69, 98, 0.24), 0px 2px 4px -1px rgba(27, 10, 82, 0.12), 0px 16px 24px rgba(245, 69, 98, 0.24), 0px 8px 8px -4px rgba(245, 69, 98, 0.12);
+  box-shadow: 0px 1px 1px rgba(245, 69, 98, 0.24), 0px 4px 4px -1px rgba(27, 10, 82, 0.12), 0px 24px 32px rgba(245, 69, 98, 0.24), 0px 12px 12px -4px rgba(245, 69, 98, 0.12);
+}
+.btn-primary:focus {
+  box-shadow: 0px 0px 1px rgba(245, 69, 98, 0.24), 0px 1px 4px -1px rgba(27, 10, 82, 0.12), 0px 8px 16px rgba(245, 69, 98, 0.24), 0px 8px 8px -4px rgba(245, 69, 98, 0.12);
+}
+
+.btn-check:active + .btn-primary:focus,
+.btn-check:checked + .btn-primary:focus,
+.btn-primary.active:focus,
+.btn-primary:active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: none;
 }
 
 input {
@@ -261,7 +289,12 @@ input {
   border-radius: 24px;
 }
 .card-widget:hover {
-  box-shadow: 6px 20px 78px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 1px rgba(245, 69, 98, 0.24), 0px 2px 4px -1px rgba(27, 10, 82, 0.12), 0px 16px 24px rgba(245, 69, 98, 0.24), 0px 8px 8px -4px rgba(245, 69, 98, 0.12);
+}
+
+.features .card-widget:hover {
+  background: linear-gradient(135deg, #FF5E00 0%, #F54562 54.11%, #C32DE1 100%);
+  box-shadow: 0px 0px 1px rgba(245, 69, 98, 0.24), 0px 2px 4px -1px rgba(27, 10, 82, 0.12), 0px 16px 24px rgba(245, 69, 98, 0.24), 0px 8px 8px -4px rgba(245, 69, 98, 0.12);
 }
 
 .icon-block {
