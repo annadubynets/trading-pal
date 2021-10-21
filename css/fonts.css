@@ -45,8 +45,8 @@
 
 @font-face {
     font-family: 'icomoon';
-    src: url('../fonts/icomoon.eot?o247og');
-    src: url('../fonts/icomoon.eot?o247og#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?o247og') format('truetype'), url('../fonts/icomoon.woff?o247og') format('woff'), url('../fonts/icomoon.svg?o247og#icomoon') format('svg');
+    src: url('../fonts/icomoon.eot?po0eum');
+    src: url('../fonts/icomoon.eot?po0eum#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?po0eum') format('truetype'), url('../fonts/icomoon.woff?po0eum') format('woff'), url('../fonts/icomoon.svg?po0eum#icomoon') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: block;
@@ -74,7 +74,6 @@
 
 .icon-pending:before {
     content: "\e906";
-    color: #0fa;
 }
 
 .icon-people:before {
@@ -133,5 +132,114 @@
 
 .icon-close:before {
     content: "\e90d";
+}
+
+.icon-home:before {
+    content: "\e90f";
+    color: #e0e0ff;
+}
+
+.icon-path:before {
+    content: "\e910";
+    color: #e0e0ff;
+}
+
+.icon-plus:before {
+    content: "\e912";
+    color: #fff;
+}
+
+.icon-power:before {
+    content: "\e913";
+    color: #f54562;
+}
+
+.icon-search:before {
+    content: "\e914";
+    color: #fff;
+}
+
+.icon-share:before {
+    content: "\e915";
+    color: #fff;
+}
+
+.icon-slider:before {
+    content: "\e916";
+    color: #fff;
+}
+
+.icon-source:before {
+    content: "\e917";
+    color: #e0e0ff;
+}
+
+.icon-swap-arrows:before {
+    content: "\e918";
+    color: #e0e0ff;
+}
+
+.icon-star:before {
+    content: "\e919";
+    color: #fff;
+}
+
+.icon-globe:before {
+    content: "\e91a";
+    color: #e0e0ff;
+}
+
+.icon-gear:before {
+    content: "\e91b";
+    color: #fff;
+}
+
+.icon-gate:before {
+    content: "\e91c";
+    color: #fff;
+}
+
+.icon-expand:before {
+    content: "\e91d";
+    color: #fff;
+}
+
+.icon-chart:before {
+    content: "\e91e";
+    color: #e0e0ff;
+}
+
+.icon-copy:before {
+    content: "\e91f";
+    color: #e0e0ff;
+}
+
+.icon-cursor:before {
+    content: "\e920";
+    color: #fff;
+}
+
+.icon-arrow-up:before {
+    content: "\e921";
+    color: #0fa;
+}
+
+.icon-case:before {
+    content: "\e922";
+    color: #e0e0ff;
+}
+
+.icon-archive:before {
+    content: "\e923";
+    color: #fff;
+}
+
+.icon-arrow-under:before {
+    content: "\e911";
+    color: #f54562;
+}
+
+.icon-swap:before {
+    content: "\e90e";
     color: #fff;
 }

@@ -1,6 +1,7 @@
 $black: #212429;
 $darkgrey: #282A2E;
 $pink: #F54562;
+$green: #00FFAA;
 $white: #FFFFFF;
 $grid-breakpoints: ( xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px, xxl: 1400px);
 h1 {
@@ -35,6 +36,7 @@ h4 {
     font-size: 20px;
     letter-spacing: -1px;
     color: $white;
+    margin-bottom: 0;
 }
 
 p {
@@ -55,7 +57,27 @@ p {
     font-size: 18px;
 }
 
+.font-size-48px {
+    font-size: 48px;
+}
+
 .text-primary {
+    color: $pink!important;
+}
+
+.text-light {
+    color: rgba(224, 224, 255, 0.6)!important;
+}
+
+.text-white {
+    color: $white!important;
+}
+
+.text-success {
+    color: $green!important;
+}
+
+.text-danger {
     color: $pink!important;
 }
 
@@ -72,11 +94,15 @@ p {
 }
 
 .bg-secondary {
-    background: $darkgrey!important;
+    background: rgba(224, 224, 255, 0.02)!important;
 }
 
 .bg-dark {
     background: $black!important;
+}
+
+.bg-success {
+    background: rgba(0, 255, 170, 0.03)!important;
 }
 
 .py-72px {
