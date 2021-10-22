@@ -10,18 +10,18 @@
 </head>
 
 <body>
-    <!-- <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top z-index-1">
         <div class="container">
-            <a class="navbar-brand align-self-center" href="./index.html">
-                <img src="images/logo.svg" alt="logo">
-            </a>
+            <!-- <a class="navbar-brand align-self-center" href="./index.html">
+                <img src="images/logo-swap.svg" alt="logo">
+            </a> -->
 
             <button class="navbar-toggler border-0 collapsed px-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="icon-menu text-dark toggler-collapsed font-size-30"></span>
                 <span class="icon-close text-dark toggler-expanded font-size-30"></span>
             </button>
             <div class="navbar-collapse collapse" id="navbarCollapse">
-                <ul class="navbar-nav ms-lg-auto ms-0 me-4">
+                <!-- <ul class="navbar-nav ms-lg-auto ms-0 me-4">
                     <li class="nav-item align-self-center">
                         <a class="nav-link" href="#">About</a>
                     </li>
@@ -37,11 +37,10 @@
                     <li class="nav-item align-self-center">
                         <a class="nav-link" href="#roadmap">Roadmap</a>
                     </li>
-                </ul>
-
+                </ul> -->
 
                 <ul class="navbar-nav ms-lg-auto ms-0">
-                    <li class="nav-item align-self-center pe-4">
+                    <li class="nav-item align-self-center pe-4 d-lg-block d-none">
                         <div class="switch">
                             <div class="current">
                                 <span>en</span>
@@ -61,7 +60,7 @@
                         </div>
                     </li>
 
-                    <li class="nav-item align-self-center pe-4">
+                    <li class="nav-item align-self-center pe-4 d-lg-block d-none">
                         <div class="icon-block">
                             <a href="#"><span class="icon-moon"></span></a>
                         </div>
@@ -73,11 +72,11 @@
                 </ul>
             </div>
         </div>
-    </nav> -->
+    </nav>
 
-    <div class="sidebar">
+    <div class="sidebar d-lg-block d-none">
         <div class="logo-details">
-            <a href="#">
+            <a href="index.html">
                 <img src="images/logo-swap.svg" alt="logo" class="icon d-inline-block">
             </a>
             <span class="icon-list" id="btn"></span>
@@ -131,46 +130,67 @@
         <div class="container">
             <div class="row mb-4">
                 <div class="col-lg-12">
-                    <span class="badge bg-secondary text-light p-2">custom_top_trader_Vasiliy</span>
-                    <span class="badge bg-secondary text-light p-2">john_wick_star</span>
-                    <span class="badge bg-secondary text-light p-2">custom_top_trader_Vasiliy</span>
-                    <span class="badge bg-secondary text-light p-2">john_wick_star</span>
-                    <span class="badge bg-secondary text-light p-2">custom_top_trader_Vasiliy</span>
-                    <span class="badge bg-secondary text-light p-2">john_wick_star</span>
+                    <div class="owl-carousel owl-theme">
+                        <span class="badge bg-secondary text-light p-2">custom_top_trader_Vasiliy</span>
+
+                        <span class="badge bg-secondary text-light p-2">john_wick_star</span>
+
+                        <span class="badge bg-secondary text-light p-2">custom_top_trader_Vasiliy</span>
+
+                        <span class="badge bg-secondary text-light p-2">john_wick_star</span>
+
+                        <span class="badge bg-secondary text-light p-2">custom_top_trader_Vasiliy</span>
+
+                        <span class="badge bg-secondary text-light p-2">john_wick_star</span>
+
+                        <span class="badge bg-secondary text-light p-2">custom_top_trader_Vasiliy</span>
+
+                        <span class="badge bg-secondary text-light p-2">john_wick_star</span>
+                    </div>
                 </div>
             </div>
             <div class="row mb-4">
                 <div class="col-lg-8">
                     <div class="card-widget p-4">
-                        <div class="d-flex">
-
+                        <div class="d-flex justify-content-between align-items-end">
+                            <div>
+                                <h2 class="font-family-second font-size-18px">$<span class="font-size-48px">3.52713438</span></h2>
+                                <p class="font-size-13px">0.14151235124 BNB
+                                    <span class="text-danger ps-3 pe-2"><span class="icon-arrow-under font-size-16px pe-2"></span>-1.88%</span>
+                                    <span class="badge bg-secondary text-white p-2">24h</span>
+                                </p>
+                            </div>
+                            <div>
+                                <span class="badge bg-secondary text-light p-2"><span class="icon-star font-size-16px text-white"></span></span>
+                                <span class="badge bg-secondary text-light p-2"><span class="icon-share font-size-16px"></span></span>
+                            </div>
                         </div>
-                        <h2 class="font-family-second font-size-18px">$<span class="font-size-48px">3.52713438</span></h2>
+
                     </div>
                 </div>
                 <div class="col-lg-2">
                     <div class="card-widget p-4">
-                        <span class="badge bg-success text-success font-size-16px p-3 mb-4"><span class="icon-arrow-up pe-2"></span>6.36%</span>
+                        <span class="badge bg-success text-success font-size-16px p-3 mb-4"><span class="icon-arrow-up font-size-16px pe-2"></span>6.36%</span>
                         <h2 class="font-family-second font-size-18px mb-2">$<span class="font-size-48px">917.8K</span></h2>
                         <p class="text-uppercase text-light font-size-13px">Profit</p>
                     </div>
                 </div>
                 <div class="col-lg-2">
                     <div class="card-widget p-4">
-                        <span class="badge bg-light text-danger font-size-16px p-3 mb-4"><span class="icon-arrow-under pe-2"></span>1.88%</span>
+                        <span class="badge bg-light text-danger font-size-16px p-3 mb-4"><span class="icon-arrow-under font-size-16px pe-2"></span>1.88%</span>
                         <h2 class="font-family-second font-size-18px mb-2">$<span class="font-size-48px">131.4K</span></h2>
                         <p class="text-uppercase text-light font-size-13px">Loss</p>
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row mb-4">
                 <div class="col-lg-5">
                     <div class="card-widget p-4">
                         <div class="d-flex justify-content-between mb-3">
                             <h4>HammerbotExch</h4>
                             <div>
-                                <span class="badge bg-secondary text-light p-2"><span class="icon-pending text-white"></span></span>
-                                <span class="badge bg-secondary text-light p-2"><span class="icon-gear"></span></span>
+                                <span class="badge bg-secondary text-light p-2"><span class="icon-pending font-size-16px text-white"></span></span>
+                                <span class="badge bg-secondary text-light p-2"><span class="icon-gear font-size-16px"></span></span>
                             </div>
                         </div>
                         <div class="bg-secondary p-3 mb-4">
@@ -205,15 +225,166 @@
                         <div class="d-flex justify-content-between mb-3">
                             <h4>BTC/BNB</h4>
                             <div>
-                                <span class="badge bg-secondary text-light p-2"><span class="icon-archive"></span></span>
-                                <span class="badge bg-secondary text-light p-2"><span class="icon-slider"></span></span>
-                                <span class="badge bg-secondary text-light p-2"><span class="icon-gate"></span></span>
-                                <span class="badge bg-secondary text-light p-2"><span class="icon-expand"></span></span>
-                                <span class="badge bg-secondary text-light p-2"><span class="icon-cursor"></span></span>
-                                <span class="badge bg-secondary text-light p-2"><span class="icon-gear"></span></span>
+                                <span class="badge bg-secondary text-light p-2"><span class="icon-archive font-size-16px"></span></span>
+                                <span class="badge bg-secondary text-light p-2"><span class="icon-slider font-size-16px"></span></span>
+                                <span class="badge bg-secondary text-light p-2"><span class="icon-gate font-size-16px"></span></span>
+                                <span class="badge bg-secondary text-light p-2"><span class="icon-expand font-size-16px"></span></span>
+                                <span class="badge bg-secondary text-light p-2"><span class="icon-cursor font-size-16px"></span></span>
+                                <span class="badge bg-secondary text-light p-2"><span class="icon-gear font-size-16px"></span></span>
                             </div>
                         </div>
                         <img src="images/graphic.png" alt="graphic" class="w-100">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="card-widget p-4">
+                        <table class="table table-hover responsive">
+                            <thead>
+                                <tr>
+                                    <th></th>
+                                    <th>Pare</th>
+                                    <th>Date</th>
+                                    <th>Type</th>
+                                    <th>Price (USD)</th>
+                                    <th>Amount</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th>
+                                        <span><img src="images/ethereum.svg" alt="Ethereum"></span>
+                                        <span><img src="images/bitcoin.svg" alt="Bitcoin"></span>
+                                    </th>
+                                    <td row-header="Pare">BTC/USDT</td>
+                                    <td row-header="Date">10.10.2020</td>
+                                    <td row-header="Type">Sale</td>
+                                    <td row-header="Price (USD)">12,289.91</td>
+                                    <td row-header="Amount">0.100000023</td>
+                                    <td><a href="#" class="page-link">Cancel</a></td>
+                                </tr>
+
+                                <tr>
+                                    <th>
+                                        <span><img src="images/ethereum.svg" alt="Ethereum"></span>
+                                        <span><img src="images/bitcoin.svg" alt="Bitcoin"></span>
+                                    </th>
+                                    <td row-header="Pare">BTC/USDT</td>
+                                    <td row-header="Date">10.10.2020</td>
+                                    <td row-header="Type">Sale</td>
+                                    <td row-header="Price (USD)">12,289.91</td>
+                                    <td row-header="Amount">0.100000023</td>
+                                    <td><a href="#" class="page-link">Cancel</a></td>
+                                </tr>
+
+                                <tr>
+                                    <th>
+                                        <span><img src="images/ethereum.svg" alt="Ethereum"></span>
+                                        <span><img src="images/bitcoin.svg" alt="Bitcoin"></span>
+                                    </th>
+                                    <td row-header="Pare">BTC/USDT</td>
+                                    <td row-header="Date">10.10.2020</td>
+                                    <td row-header="Type">Sale</td>
+                                    <td row-header="Price (USD)">12,289.91</td>
+                                    <td row-header="Amount">0.100000023</td>
+                                    <td><a href="#" class="page-link">Cancel</a></td>
+                                </tr>
+
+                                <tr>
+                                    <th>
+                                        <span><img src="images/ethereum.svg" alt="Ethereum"></span>
+                                        <span><img src="images/bitcoin.svg" alt="Bitcoin"></span>
+                                    </th>
+                                    <td row-header="Pare">BTC/USDT</td>
+                                    <td row-header="Date">10.10.2020</td>
+                                    <td row-header="Type">Sale</td>
+                                    <td row-header="Price (USD)">12,289.91</td>
+                                    <td row-header="Amount">0.100000023</td>
+                                    <td><a href="#" class="page-link">Cancel</a></td>
+                                </tr>
+
+                                <tr>
+                                    <th>
+                                        <span><img src="images/ethereum.svg" alt="Ethereum"></span>
+                                        <span><img src="images/bitcoin.svg" alt="Bitcoin"></span>
+                                    </th>
+                                    <td row-header="Pare">BTC/USDT</td>
+                                    <td row-header="Date">10.10.2020</td>
+                                    <td row-header="Type">Sale</td>
+                                    <td row-header="Price (USD)">12,289.91</td>
+                                    <td row-header="Amount">0.100000023</td>
+                                    <td><a href="#" class="page-link">Cancel</a></td>
+                                </tr>
+
+                                <tr>
+                                    <th>
+                                        <span><img src="images/ethereum.svg" alt="Ethereum"></span>
+                                        <span><img src="images/bitcoin.svg" alt="Bitcoin"></span>
+                                    </th>
+                                    <td row-header="Pare">BTC/USDT</td>
+                                    <td row-header="Date">10.10.2020</td>
+                                    <td row-header="Type">Sale</td>
+                                    <td row-header="Price (USD)">12,289.91</td>
+                                    <td row-header="Amount">0.100000023</td>
+                                    <td><a href="#" class="page-link">Cancel</a></td>
+                                </tr>
+
+                                <tr>
+                                    <th>
+                                        <span><img src="images/ethereum.svg" alt="Ethereum"></span>
+                                        <span><img src="images/bitcoin.svg" alt="Bitcoin"></span>
+                                    </th>
+                                    <td row-header="Pare">BTC/USDT</td>
+                                    <td row-header="Date">10.10.2020</td>
+                                    <td row-header="Type">Sale</td>
+                                    <td row-header="Price (USD)">12,289.91</td>
+                                    <td row-header="Amount">0.100000023</td>
+                                    <td><a href="#" class="page-link">Cancel</a></td>
+                                </tr>
+
+                                <tr>
+                                    <th>
+                                        <span><img src="images/ethereum.svg" alt="Ethereum"></span>
+                                        <span><img src="images/bitcoin.svg" alt="Bitcoin"></span>
+                                    </th>
+                                    <td row-header="Pare">BTC/USDT</td>
+                                    <td row-header="Date">10.10.2020</td>
+                                    <td row-header="Type">Sale</td>
+                                    <td row-header="Price (USD)">12,289.91</td>
+                                    <td row-header="Amount">0.100000023</td>
+                                    <td><a href="#" class="page-link">Cancel</a></td>
+                                </tr>
+
+                                <tr>
+                                    <th>
+                                        <span><img src="images/ethereum.svg" alt="Ethereum"></span>
+                                        <span><img src="images/bitcoin.svg" alt="Bitcoin"></span>
+                                    </th>
+                                    <td row-header="Pare">BTC/USDT</td>
+                                    <td row-header="Date">10.10.2020</td>
+                                    <td row-header="Type">Sale</td>
+                                    <td row-header="Price (USD)">12,289.91</td>
+                                    <td row-header="Amount">0.100000023</td>
+                                    <td><a href="#" class="page-link">Cancel</a></td>
+                                </tr>
+
+                                <tr>
+                                    <th>
+                                        <span><img src="images/ethereum.svg" alt="Ethereum"></span>
+                                        <span><img src="images/bitcoin.svg" alt="Bitcoin"></span>
+                                    </th>
+                                    <td row-header="Pare">BTC/USDT</td>
+                                    <td row-header="Date">10.10.2020</td>
+                                    <td row-header="Type">Sale</td>
+                                    <td row-header="Price (USD)">12,289.91</td>
+                                    <td row-header="Amount">0.100000023</td>
+                                    <td><a href="#" class="page-link">Cancel</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             </div>

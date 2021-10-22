@@ -45,8 +45,8 @@
 
 @font-face {
     font-family: 'icomoon';
-    src: url('../fonts/icomoon.eot?po0eum');
-    src: url('../fonts/icomoon.eot?po0eum#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?po0eum') format('truetype'), url('../fonts/icomoon.woff?po0eum') format('woff'), url('../fonts/icomoon.svg?po0eum#icomoon') format('svg');
+    src: url('../fonts/icomoon.eot?793blr');
+    src: url('../fonts/icomoon.eot?793blr#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?793blr') format('truetype'), url('../fonts/icomoon.woff?793blr') format('woff'), url('../fonts/icomoon.svg?793blr#icomoon') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: block;
@@ -65,6 +65,11 @@
     /* Better Font Rendering =========== */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-close:before {
+    content: "\e90d";
+    color: #fff;
 }
 
 .icon-bond:before {
@@ -128,10 +133,6 @@
 .icon-arrow-left:before {
     content: "\e905";
     color: #e0e0ff;
-}
-
-.icon-close:before {
-    content: "\e90d";
 }
 
 .icon-home:before {
@@ -237,6 +238,17 @@
 .icon-arrow-under:before {
     content: "\e911";
     color: #f54562;
+}
+
+.icon-bitcoin .path1:before {
+    content: "\e924";
+    color: rgb(247, 147, 26);
+}
+
+.icon-bitcoin .path2:before {
+    content: "\e925";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
 }
 
 .icon-swap:before {

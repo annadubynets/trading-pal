@@ -93,3 +93,24 @@ if ($('.team .owl-carousel').length > 0) {
         }
     })
 }
+
+if ($('.home-section .owl-carousel').length > 0) {
+    $('.home-section .owl-carousel').owlCarousel({
+        loop: true,
+        margin: 60,
+        responsiveClass: true,
+        autoplay: false,
+        dots: false,
+        nav: false,
+        responsive: {
+            0: {
+                items: 2,
+                stagePadding: 60,
+            },
+            992: {
+                items: 6,
+                loop: false
+            }
+        }
+    })
+}

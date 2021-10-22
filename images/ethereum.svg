@@ -1,6 +1,46 @@
-<svg width="1" height="1" viewBox="0 0 1 1" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g id="ethereum">
-<rect id="shape" width="0.0234375" height="0.0234375" rx="12" fill="#464A75"/>
-<path id="shape_2" fill-rule="evenodd" clip-rule="evenodd" d="M0.0066371 0.0117246L0.0116102 0.00347219V0.0034717L0.0165824 0.0117276L0.0116098 0.0146641L0.0066371 0.0117246ZM0.0115334 0.0156044L0.00656271 0.012668L0.0115334 0.0196758L0.01651 0.012668L0.0115334 0.0156044Z" fill="white"/>
-</g>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1"
+   height="1"
+   viewBox="0 0 1 1"
+   fill="none"
+   version="1.1"
+   id="svg96"
+   sodipodi:docname="ethereum.svg"
+   inkscape:version="1.1 (c4e8f9e, 2021-05-24)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs100" />
+  <sodipodi:namedview
+     id="namedview98"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="256"
+     inkscape:cx="0.49804688"
+     inkscape:cy="0.49804688"
+     inkscape:window-width="1312"
+     inkscape:window-height="809"
+     inkscape:window-x="0"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg96" />
+  <g
+     id="ethereum">
+    <path
+       style="color:#000000;fill:#464a75;-inkscape-stroke:none"
+       d="m 0.01171875,0 c 0.0064922,0 0.01171875,0.00522656 0.01171875,0.01171875 0,0.0064922 -0.0052266,0.01171875 -0.01171875,0.01171875 C 0.00522656,0.0234375 0,0.01821094 0,0.01171875 0,0.00522656 0.00522656,0 0.01171875,0 Z"
+       id="shape" />
+    <path
+       style="color:#000000;clip-rule:evenodd;fill:#ffffff;fill-rule:evenodd;-inkscape-stroke:none"
+       d="M 0.0066371,0.0117246 0.0116102,0.00347219 v -4.9e-7 L 0.0165824,0.0117276 0.0116098,0.0146641 Z M 0.0115334,0.0156044 0.00656271,0.012668 0.0115334,0.0196758 0.01651,0.012668 Z"
+       id="shape_2" />
+  </g>
 </svg>
