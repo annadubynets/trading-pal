@@ -882,6 +882,7 @@ input {
   color: #FFFFFF !important;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
+  z-index: 0;
 }
 
 .table {
