@@ -339,6 +339,16 @@ a {
   color: #FFFFFF;
 }
 
+.btn-link {
+  color: #FFFFFF;
+  text-decoration: none;
+  background-color: transparent;
+}
+.btn-link:focus {
+  box-shadow: none;
+  color: #FFFFFF;
+}
+
 .dropdown-menu {
   background: linear-gradient(135deg, rgba(245, 247, 250, 0.12) 0%, rgba(245, 247, 250, 0.06) 52.14%, rgba(245, 247, 250, 0.0001) 100%);
   border: 1px solid rgba(245, 247, 250, 0.06);
@@ -429,6 +439,12 @@ input {
   justify-content: center;
   align-items: center;
   align-self: center;
+}
+.icon-block.success {
+  background: rgba(0, 255, 170, 0.03);
+}
+.icon-block.primary {
+  background: rgba(69, 121, 245, 0.03);
 }
 
 .switch {
@@ -887,6 +903,23 @@ input {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
   z-index: 0;
+}
+
+.input-group.search .form-control {
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+.input-group.search .form-control:focus {
+  box-shadow: none;
+}
+.input-group.search .input-group-text {
+  background: rgba(224, 224, 255, 0.02);
+  border-radius: 12px;
+  border: none;
+}
+
+.input-group > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+  margin-left: 0;
 }
 
 .table {
