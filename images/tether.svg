@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="24"
+   height="24"
+   viewBox="0 0 24 24"
+   fill="none"
+   version="1.1"
+   id="svg669"
+   sodipodi:docname="tether.svg"
+   inkscape:version="1.1 (c4e8f9e, 2021-05-24)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs673" />
+  <sodipodi:namedview
+     id="namedview671"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     width="24px"
+     inkscape:zoom="9.1448764"
+     inkscape:cx="3.7726043"
+     inkscape:cy="2.1323416"
+     inkscape:window-width="1296"
+     inkscape:window-height="809"
+     inkscape:window-x="0"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg669" />
+  <g
+     id="tether"
+     transform="scale(1024)">
+    <path
+       style="color:#000000;fill:#26a17b;-inkscape-stroke:none"
+       d="m 0.01171875,0 c 0.0064922,0 0.01171875,0.00522656 0.01171875,0.01171875 0,0.0064922 -0.0052266,0.01171875 -0.01171875,0.01171875 C 0.00522656,0.0234375 0,0.01821094 0,0.01171875 0,0.00522656 0.00522656,0 0.01171875,0 Z"
+       id="shape" />
+    <path
+       style="color:#000000;clip-rule:evenodd;fill:#ffffff;fill-rule:evenodd;-inkscape-stroke:none"
+       d="M 0.0131493,0.0083775 V 0.01011 l 1.9e-6,1.9e-6 c 0.0032175,1.481e-4 0.0056362,7.875e-4 0.0056362,0.0015506 0,7.65e-4 -0.0024187,0.0014025 -0.0056362,0.0015506 V 0.0187669 H 0.0102843 V 0.0132131 c -0.00322125,-1.5e-4 -0.00564563,-7.875e-4 -0.00564563,-0.0015525 0,-7.65e-4 0.0024225,-0.0014025 0.00564563,-0.0015506 V 0.0083775 H 0.00631867 V 0.00573563 H 0.0171149 V 0.0083775 Z m -10e-8,0.0043594 v 1.8e-6 1.9e-6 c 0.0028407,-1.275e-4 0.0049613,-6.225e-4 0.0049613,-0.001215 0,-5.925e-4 -0.0021188,-0.0010875 -0.0049613,-0.001215 v 0.001935 c -8.25e-5,7.5e-6 -5.25e-4,4.5e-5 -0.00141,4.5e-5 -7.368e-4,0 -0.0012712,-3.19e-5 -0.0014568,-4.5e-5 V 0.0103087 c -0.00284628,1.257e-4 -0.00497253,6.226e-4 -0.00497253,0.0012151 0,5.943e-4 0.00212437,0.0010893 0.00497253,0.0012149 v -1.8e-6 c 1.837e-4,9.3e-6 7.031e-4,3e-5 0.0014437,3e-5 9.263e-4,0 0.0013425,-2.44e-5 0.0014231,-3e-5 z"
+       id="shape_2" />
+  </g>
+</svg>
