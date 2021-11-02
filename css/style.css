@@ -129,6 +129,10 @@ p {
   width: 70%;
 }
 
+.w-24 {
+  width: 24px;
+}
+
 .z-index-1 {
   z-index: 1;
 }
