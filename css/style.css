@@ -348,8 +348,9 @@ a {
   color: #FFFFFF;
   text-decoration: none;
   background-color: transparent;
+  padding: 0;
 }
-.btn-link:focus {
+.btn-link:focus, .btn-link:hover {
   box-shadow: none;
   color: #FFFFFF;
 }
@@ -941,6 +942,11 @@ input {
   color: rgba(224, 224, 255, 0.6);
 }
 @media (max-width: 991px) {
+  .table tr td {
+    color: #FFFFFF;
+  }
+}
+@media (max-width: 991px) {
   .table .page-link {
     background: rgba(245, 69, 98, 0.06);
     border-radius: 12px;
@@ -982,6 +988,7 @@ input {
     text-align: left;
     width: 50%;
     padding-right: 30px;
+    color: #E0E0FF;
   }
 }
 #copyButton {

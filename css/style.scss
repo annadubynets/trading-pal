@@ -55,7 +55,6 @@ a {
     height: 96px;
     background-color: $black;
     border: 1px solid rgba(224, 224, 255, 0.1);
-    //z-index: 1;
     .navbar-toggler {
         &:focus {
             box-shadow: none!important;
@@ -225,7 +224,9 @@ a {
     color: $white;
     text-decoration: none;
     background-color: transparent;
-    &:focus {
+    padding: 0;
+    &:focus,
+    &:hover {
         box-shadow: none;
         color: $white;
     }
@@ -303,7 +304,6 @@ input {
     border: 1px solid rgba(245, 247, 250, 0.06);
     box-sizing: border-box;
     box-shadow: 0px 1px 1px rgba(9, 13, 20, 0.4), -4px -4px 8px rgba(224, 224, 255, 0.04), 8px 8px 24px rgba(9, 13, 20, 0.4);
-    //backdrop-filter: blur(108.731px);
     border-radius: 24px;
     label {
         font-size: 14px;
@@ -358,7 +358,6 @@ input {
     text-align: center;
     display: flex;
     color: $white;
-    //transition: all .2s ease-out;
     padding: 12px;
     span {
         display: inline-block;
@@ -381,7 +380,6 @@ input {
     top: 0;
     z-index: 0;
     opacity: 0;
-    //transition: all .36s ease-out;
     display: none;
     overflow: hidden;
     box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
@@ -411,8 +409,6 @@ input {
         padding: 10px;
         border-bottom: 1px solid rgba(224, 224, 255, 0.1);
         transform: translateX(10px);
-        //transition: all .24s ease-out;
-        //transition-delay: .1s;
         opacity: 0;
         font-weight: 600;
         font-size: 16px;
@@ -457,7 +453,6 @@ input {
     margin: 0;
     border: none;
     z-index: 1;
-    //transition: all .4s ease-out;
     transform: scale(.5);
     overflow: hidden;
     svg {
@@ -500,13 +495,11 @@ input {
             border: 1px solid rgba(245, 247, 250, 0.06);
             box-sizing: border-box;
             box-shadow: 0px 1px 1px rgba(9, 13, 20, 0.4), -4px -4px 8px rgba(224, 224, 255, 0.04), 8px 8px 24px rgba(9, 13, 20, 0.4);
-            //backdrop-filter: blur(108.731px);
             border-radius: 4px;
             display: flex;
             justify-content: center;
             align-items: center;
             -webkit-backface-visibility: visible;
-            //transition: opacity .2s ease;
         }
         span {
             display: none;
@@ -524,13 +517,11 @@ input {
             border: 1px solid rgba(245, 247, 250, 0.06);
             box-sizing: border-box;
             box-shadow: 0px 1px 1px rgba(9, 13, 20, 0.4), -4px -4px 8px rgba(224, 224, 255, 0.04), 8px 8px 24px rgba(9, 13, 20, 0.4);
-            //backdrop-filter: blur(108.731px);
             border-radius: 4px;
             display: flex;
             justify-content: center;
             align-items: center;
             -webkit-backface-visibility: visible;
-            //transition: opacity .2s ease;
         }
         span {
             display: none;
@@ -559,7 +550,6 @@ input {
         border: 1px solid rgba(245, 247, 250, 0.06);
         box-sizing: border-box;
         box-shadow: 0px 1px 1px rgba(20, 16, 41, 0.4), -4px -4px 8px rgba(224, 224, 255, 0.04), 8px 8px 24px rgba(20, 16, 41, 0.4);
-        //backdrop-filter: blur(108.731px);
         border-radius: 12px;
         width: 48px;
         height: 48px;
@@ -638,9 +628,7 @@ input {
     height: 100%;
     background: $black;
     box-shadow: 0px 1px 1px rgba(9, 13, 20, 0.4), -4px -4px 8px rgba(224, 224, 255, 0.04), 8px 8px 24px rgba(9, 13, 20, 0.4);
-    //backdrop-filter: blur(108.731px);
     z-index: 99;
-    //transition: all 0.5s ease;
     .logo-details {
         height: 92px;
         display: flex;
@@ -653,18 +641,15 @@ input {
             width: 32px;
             height: 32px;
             opacity: 1;
-            //transition: all 0.5s ease;
         }
         #btn {
             position: absolute;
             top: 50%;
             right: 0;
             transform: translateY(-50%);
-            //transition: all 0.4s ease;
             font-size: 24px;
             text-align: center;
             cursor: pointer;
-            //transition: all 0.5s ease;
         }
     }
     i {
@@ -696,13 +681,11 @@ input {
             font-weight: 400;
             opacity: 0;
             pointer-events: none;
-            //transition: 0s;
         }
         &:hover {
             .tooltip {
                 opacity: 1;
                 pointer-events: auto;
-                //transition: all 0.4s ease;
                 top: 50%;
                 transform: translateY(-50%);
             }
@@ -714,14 +697,11 @@ input {
             text-decoration: none;
             display: block;
             text-align: center;
-            //transition: all 0.4s ease;
             &:hover {
                 .links-name {
-                    //transition: all 0.5s ease;
                     color: $black;
                 }
                 span {
-                    //transition: all 0.5s ease;
                     color: $black;
                 }
             }
@@ -732,7 +712,6 @@ input {
                 white-space: nowrap;
                 opacity: 0;
                 pointer-events: none;
-                //transition: 0.4s;
                 margin-left: 16px;
             }
         }
@@ -766,7 +745,6 @@ input {
         bottom: 0;
         padding: 24px;
         background: $white;
-        //transition: all 0.5s ease;
         overflow: hidden;
         margin: 36px 0;
     }
@@ -778,7 +756,6 @@ input {
             width: 100%;
             height: 60px;
             border-radius: 0px;
-            //transition: all 0.5s ease;
         }
     }
 }
@@ -825,7 +802,6 @@ input {
     top: 100px;
     left: 85px;
     width: calc(100% - 85px);
-    //transition: all 0.5s ease;
     padding: 32px 0;
     @media (max-width: 992px) {
         left: 0;
@@ -882,6 +858,9 @@ input {
             font-weight: 500;
             font-size: 14px;
             color: rgba(224, 224, 255, 0.6);
+            @media (max-width: 991px) {
+                color: $white;
+            }
         }
     }
     @media (max-width: 991px) {
@@ -924,6 +903,7 @@ input {
         text-align: left;
         width: 50%;
         padding-right: 30px;
+        color: #E0E0FF;
     }
 }
 

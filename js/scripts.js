@@ -100,6 +100,7 @@ if ($('.home-section .owl-carousel').length > 0) {
         margin: 60,
         responsiveClass: true,
         autoplay: false,
+        autoWidth: true,
         dots: false,
         nav: false,
         responsive: {
@@ -108,8 +109,7 @@ if ($('.home-section .owl-carousel').length > 0) {
                 stagePadding: 60,
             },
             992: {
-                items: 6,
-                loop: false
+                items: 6
             }
         }
     })
